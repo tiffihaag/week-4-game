@@ -1,0 +1,49 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.jumbotron {
+	opacity: .8;
+	height: 200px;
+	margin: -20px;
+}
+
+.row1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+	text-align: center;
+	padding: 30px;
+}
+
+.row2 {
+	background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+	text-align: center;
+}
+
+.row3 {
+	background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+	text-align: center;
+	padding: 20px;
+}
+
+.imgLeia {
+	  
+}
+.imgAhsoka {
+
+}
+
+.imgPadme {
+
+}
+
+.imgAssaj {
+
+}
