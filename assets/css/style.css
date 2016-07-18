@@ -6,8 +6,11 @@ body {
 
 .jumbotron {
 	opacity: .8;
-	height: 200px;
-	margin: -20px;
+	height: 220px;
+	margin-top: -40px;
+	margin-bottom: -20px;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .row1 {
@@ -33,17 +36,3 @@ body {
 	padding: 20px;
 }
 
-.imgLeia {
-	  
-}
-.imgAhsoka {
-
-}
-
-.imgPadme {
-
-}
-
-.imgAssaj {
-
-}
