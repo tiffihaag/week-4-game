@@ -26,6 +26,7 @@ body {
     background-position: center;
     opacity: .8;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .row3 {
@@ -35,4 +36,13 @@ body {
 	text-align: center;
 	padding: 20px;
 }
+ 
+.losersRow {
+	background-position: center;
+	text-align: center;
+	opacity: .5;
+}
 
+#restartButton {
+	font-size: 18px;
+}

@@ -29,16 +29,15 @@
 		</div>
   	</div>
 
-
   	<div class="row1">
 	  	<p> Pick a Character </p>
-	  	<button class="btnLeia"><span class="imgLeia"> Princess Leia <br> <img src= "assets/images/leia.jpg" width="150px" height="150px"></span></button>
+	  	<button class="Option1" value="0"><span class="imgLeia"> Princess Leia <br> <img src= "assets/images/leia.jpg" width="150px" height="150px" id="btnLeia"></span></button>
 		
-		<button class="btnAhsoka"><span class="imgAhsoka"> Ahsoka Tano <br> <img src= "assets/images/ahsoka.jpg"width="150px" height="150px" id="btnAhsoka"></span></button>
+		<button class="Option1" value="1"><span class="imgAhsoka"> Ahsoka Tano <br> <img src= "assets/images/ahsoka.jpg"width="150px" height="150px" id="btnAhsoka"></span></button>
 
-	   	<button class="btnPadme"><span class="imgPadme"> Padme Amidala <br> <img src= "assets/images/padme.jpg" width="150px" height="150px" id="btnPadme"></span></button>
+	   	<button class="Option1" value="2"><span class="imgPadme"> Padme Amidala <br> <img src= "assets/images/padme.jpg" width="150px" height="150px" id="btnPadme"></span></button>
 
-	   	<button class="btnAsajj"><span class="imgAsajj"> Asajj Ventress <br> <img src="assets/images/asajj.jpg" width="150px" height="150px" id="btnAsajj"></span></button>
+	   	<button class="Option1" value="3"><span class="imgAsajj"> Asajj Ventress <br> <img src="assets/images/asajj.jpg" width="150px" height="150px" id="btnAsajj"></span></button>
 	</div>
 
 	<div class="row2">
@@ -46,10 +45,12 @@
 	</div>
 
 	<div class="row3">
-		<button class="btn btn-danger"> Attack </button>
-		<p> Defender </p>
-
+		<button class="btn btn-danger" id="Attack"> Attack </button> <span id= "defender"></span>
 	</div>
+
+	<div class="losersRow">Loser's Row<br></div>
+
+	<a style="cursor: pointer;" id="restartButton"><center>Click here to restart the game!</center></a>
 
 </body>
 </html>
