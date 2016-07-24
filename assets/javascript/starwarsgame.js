@@ -74,6 +74,9 @@ $(document).ready(function(){
 				opponentHealth = opponentHealth - counterAttackPower[defenderChosen];
 				console.log("Defender health: " + defenderHealth);
 				console.log("Opponent health: " + opponentHealth);
+				$(".P1").html(opponentHealth);
+				$(".P2").html(defenderHealth);
+				
 			}
 			else if(defenderHealth <=0) {
 				alert("You win!!! Defender lost.");
